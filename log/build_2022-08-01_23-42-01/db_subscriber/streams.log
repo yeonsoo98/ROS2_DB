@@ -1,0 +1,17 @@
+[3.506s] Invoking command in '/home/ys/db_ws/build/db_subscriber': PYTHONPATH=/home/ys/db_ws/install/db_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ys/db_ws/install/db_subscriber --editable --build-directory /home/ys/db_ws/build/db_subscriber/build --no-deps install_data --install-dir /home/ys/db_ws/install/db_subscriber
+[4.620s] running develop
+[5.167s] running egg_info
+[5.168s] writing db_subscriber.egg-info/PKG-INFO
+[5.171s] writing dependency_links to db_subscriber.egg-info/dependency_links.txt
+[5.173s] writing entry points to db_subscriber.egg-info/entry_points.txt
+[5.178s] writing requirements to db_subscriber.egg-info/requires.txt
+[5.179s] writing top-level names to db_subscriber.egg-info/top_level.txt
+[5.267s] reading manifest file 'db_subscriber.egg-info/SOURCES.txt'
+[5.272s] writing manifest file 'db_subscriber.egg-info/SOURCES.txt'
+[5.437s] running build_ext
+[5.440s] Creating /home/ys/db_ws/install/db_subscriber/lib/python3.8/site-packages/db-subscriber.egg-link (link to .)
+[5.448s] Installing db_subscriber script to /home/ys/db_ws/install/db_subscriber/lib/db_subscriber
+[5.450s] 
+[5.450s] Installed /home/ys/db_ws/build/db_subscriber
+[5.452s] running install_data
+[5.567s] Invoked command in '/home/ys/db_ws/build/db_subscriber' returned '0': PYTHONPATH=/home/ys/db_ws/install/db_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ys/db_ws/install/db_subscriber --editable --build-directory /home/ys/db_ws/build/db_subscriber/build --no-deps install_data --install-dir /home/ys/db_ws/install/db_subscriber

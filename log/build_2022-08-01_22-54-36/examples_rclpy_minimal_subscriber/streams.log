@@ -1,0 +1,27 @@
+[1.154s] Invoking command in '/home/ys/db_ws/build/examples_rclpy_minimal_subscriber': PYTHONPATH=/home/ys/db_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ys/db_ws/install/examples_rclpy_minimal_subscriber --editable --build-directory /home/ys/db_ws/build/examples_rclpy_minimal_subscriber/build --no-deps install_data --install-dir /home/ys/db_ws/install/examples_rclpy_minimal_subscriber
+[1.576s] running develop
+[1.791s] running egg_info
+[1.791s] creating examples_rclpy_minimal_subscriber.egg-info
+[1.792s] writing examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[1.793s] writing dependency_links to examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[1.793s] writing entry points to examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[1.794s] writing requirements to examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[1.794s] writing top-level names to examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[1.796s] writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[1.830s] reading manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[1.831s] writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[1.894s] running build_ext
+[1.895s] Creating /home/ys/db_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/site.py
+[1.898s] Creating /home/ys/db_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples-rclpy-minimal-subscriber.egg-link (link to .)
+[1.899s] Installing subscriber_lambda script to /home/ys/db_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[1.900s] Installing subscriber_member_function script to /home/ys/db_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[1.900s] Installing subscriber_old_school script to /home/ys/db_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[1.901s] 
+[1.901s] Installed /home/ys/db_ws/build/examples_rclpy_minimal_subscriber
+[1.902s] running install_data
+[1.903s] creating /home/ys/db_ws/install/examples_rclpy_minimal_subscriber/share/ament_index
+[1.903s] creating /home/ys/db_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index
+[1.903s] creating /home/ys/db_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[1.903s] copying resource/examples_rclpy_minimal_subscriber -> /home/ys/db_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[1.903s] copying package.xml -> /home/ys/db_ws/install/examples_rclpy_minimal_subscriber/share/examples_rclpy_minimal_subscriber
+[1.940s] Invoked command in '/home/ys/db_ws/build/examples_rclpy_minimal_subscriber' returned '0': PYTHONPATH=/home/ys/db_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ys/db_ws/install/examples_rclpy_minimal_subscriber --editable --build-directory /home/ys/db_ws/build/examples_rclpy_minimal_subscriber/build --no-deps install_data --install-dir /home/ys/db_ws/install/examples_rclpy_minimal_subscriber

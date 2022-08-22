@@ -1,0 +1,3 @@
+[console_scripts]
+db_subscriber = db_subscriber.db_subscriber:main
+

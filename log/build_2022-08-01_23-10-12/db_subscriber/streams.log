@@ -1,0 +1,18 @@
+[1.256s] Invoking command in '/home/ys/db_ws/build/db_subscriber': PYTHONPATH=/home/ys/db_ws/install/db_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ys/db_ws/install/db_subscriber --editable --build-directory /home/ys/db_ws/build/db_subscriber/build --no-deps install_data --install-dir /home/ys/db_ws/install/db_subscriber
+[1.698s] running develop
+[1.908s] running egg_info
+[1.908s] writing db_subscriber.egg-info/PKG-INFO
+[1.910s] writing dependency_links to db_subscriber.egg-info/dependency_links.txt
+[1.910s] writing entry points to db_subscriber.egg-info/entry_points.txt
+[1.911s] writing requirements to db_subscriber.egg-info/requires.txt
+[1.912s] writing top-level names to db_subscriber.egg-info/top_level.txt
+[1.951s] reading manifest file 'db_subscriber.egg-info/SOURCES.txt'
+[1.955s] writing manifest file 'db_subscriber.egg-info/SOURCES.txt'
+[2.021s] running build_ext
+[2.022s] Creating /home/ys/db_ws/install/db_subscriber/lib/python3.8/site-packages/db-subscriber.egg-link (link to .)
+[2.024s] Installing db_subscriber script to /home/ys/db_ws/install/db_subscriber/lib/db_subscriber
+[2.024s] 
+[2.025s] Installed /home/ys/db_ws/build/db_subscriber
+[2.025s] error: can't copy 'resource/db_subscriber': doesn't exist or not a regular file
+[2.025s] running install_data
+[2.064s] Invoked command in '/home/ys/db_ws/build/db_subscriber' returned '1': PYTHONPATH=/home/ys/db_ws/install/db_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ys/db_ws/install/db_subscriber --editable --build-directory /home/ys/db_ws/build/db_subscriber/build --no-deps install_data --install-dir /home/ys/db_ws/install/db_subscriber

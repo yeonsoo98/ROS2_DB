@@ -1,0 +1,24 @@
+[1.221s] Invoking command in '/home/ys/db_ws/build/db_subscriber': PYTHONPATH=/home/ys/db_ws/install/db_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ys/db_ws/install/db_subscriber --editable --build-directory /home/ys/db_ws/build/db_subscriber/build --no-deps install_data --install-dir /home/ys/db_ws/install/db_subscriber
+[1.633s] running develop
+[1.842s] running egg_info
+[1.842s] creating db_subscriber.egg-info
+[1.842s] writing db_subscriber.egg-info/PKG-INFO
+[1.843s] writing dependency_links to db_subscriber.egg-info/dependency_links.txt
+[1.843s] writing entry points to db_subscriber.egg-info/entry_points.txt
+[1.843s] writing requirements to db_subscriber.egg-info/requires.txt
+[1.843s] writing top-level names to db_subscriber.egg-info/top_level.txt
+[1.844s] writing manifest file 'db_subscriber.egg-info/SOURCES.txt'
+[1.878s] reading manifest file 'db_subscriber.egg-info/SOURCES.txt'
+[1.879s] writing manifest file 'db_subscriber.egg-info/SOURCES.txt'
+[1.937s] running build_ext
+[1.937s] Creating /home/ys/db_ws/install/db_subscriber/lib/python3.8/site-packages/site.py
+[1.940s] Creating /home/ys/db_ws/install/db_subscriber/lib/python3.8/site-packages/db-subscriber.egg-link (link to .)
+[1.941s] Installing db_subscriber script to /home/ys/db_ws/install/db_subscriber/lib/examples_rclpy_minimal_subscriber
+[1.942s] 
+[1.942s] Installed /home/ys/db_ws/build/db_subscriber
+[1.942s] running install_data
+[1.943s] creating /home/ys/db_ws/install/db_subscriber/share/ament_index
+[1.944s] creating /home/ys/db_ws/install/db_subscriber/share/ament_index/resource_index
+[1.944s] creating /home/ys/db_ws/install/db_subscriber/share/ament_index/resource_index/packages
+[1.944s] error: can't copy 'resource/db_subscriber': doesn't exist or not a regular file
+[1.978s] Invoked command in '/home/ys/db_ws/build/db_subscriber' returned '1': PYTHONPATH=/home/ys/db_ws/install/db_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ys/db_ws/install/db_subscriber --editable --build-directory /home/ys/db_ws/build/db_subscriber/build --no-deps install_data --install-dir /home/ys/db_ws/install/db_subscriber

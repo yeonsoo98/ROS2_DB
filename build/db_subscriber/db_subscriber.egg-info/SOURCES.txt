@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+db_subscriber/__init__.py
+db_subscriber/db_subscriber.py
+db_subscriber.egg-info/PKG-INFO
+db_subscriber.egg-info/SOURCES.txt
+db_subscriber.egg-info/dependency_links.txt
+db_subscriber.egg-info/entry_points.txt
+db_subscriber.egg-info/requires.txt
+db_subscriber.egg-info/top_level.txt
+db_subscriber.egg-info/zip-safe
+resource/db_subscriber

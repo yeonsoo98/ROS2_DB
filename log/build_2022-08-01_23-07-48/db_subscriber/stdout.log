@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating db_subscriber.egg-info
+writing db_subscriber.egg-info/PKG-INFO
+writing dependency_links to db_subscriber.egg-info/dependency_links.txt
+writing entry points to db_subscriber.egg-info/entry_points.txt
+writing requirements to db_subscriber.egg-info/requires.txt
+writing top-level names to db_subscriber.egg-info/top_level.txt
+writing manifest file 'db_subscriber.egg-info/SOURCES.txt'
+reading manifest file 'db_subscriber.egg-info/SOURCES.txt'
+writing manifest file 'db_subscriber.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ys/db_ws/install/db_subscriber/lib/python3.8/site-packages/site.py
+Creating /home/ys/db_ws/install/db_subscriber/lib/python3.8/site-packages/db-subscriber.egg-link (link to .)
+Installing db_subscriber script to /home/ys/db_ws/install/db_subscriber/lib/examples_rclpy_minimal_subscriber
+
+Installed /home/ys/db_ws/build/db_subscriber
+running install_data
+creating /home/ys/db_ws/install/db_subscriber/share/ament_index
+creating /home/ys/db_ws/install/db_subscriber/share/ament_index/resource_index
+creating /home/ys/db_ws/install/db_subscriber/share/ament_index/resource_index/packages

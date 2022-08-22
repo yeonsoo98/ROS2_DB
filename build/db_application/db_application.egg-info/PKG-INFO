@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: db-application
+Version: 0.9.4
+Summary: Examples of minimal subscribers using rclpy.
+Home-page: UNKNOWN
+Author: yeonsoo
+Author-email: yeonso981@naver.com
+Maintainer: yeonsoo
+Maintainer-email: yeonso981@naver.com
+License: Apache License, Version 2.0
+Description: UNKNOWN
+Keywords: ROS
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development

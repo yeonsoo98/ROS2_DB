@@ -1,0 +1,12 @@
+[1.220s] Invoking command in '/home/ys/db_ws/build/db_application': PYTHONPATH=/home/ys/db_ws/install/db_application/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ys/db_ws/install/db_application --editable --build-directory /home/ys/db_ws/build/db_application/build --no-deps install_data --install-dir /home/ys/db_ws/install/db_application
+[1.622s] running develop
+[1.827s] running egg_info
+[1.827s] creating db_application.egg-info
+[1.828s] writing db_application.egg-info/PKG-INFO
+[1.829s] writing dependency_links to db_application.egg-info/dependency_links.txt
+[1.830s] writing entry points to db_application.egg-info/entry_points.txt
+[1.831s] writing requirements to db_application.egg-info/requires.txt
+[1.831s] writing top-level names to db_application.egg-info/top_level.txt
+[1.834s] writing manifest file 'db_application.egg-info/SOURCES.txt'
+[1.867s] error: package directory 'db_application' does not exist
+[1.899s] Invoked command in '/home/ys/db_ws/build/db_application' returned '1': PYTHONPATH=/home/ys/db_ws/install/db_application/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ys/db_ws/install/db_application --editable --build-directory /home/ys/db_ws/build/db_application/build --no-deps install_data --install-dir /home/ys/db_ws/install/db_application
