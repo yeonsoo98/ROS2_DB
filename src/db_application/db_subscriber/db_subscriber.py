@@ -17,6 +17,7 @@ from rclpy.node import Node
 
 from geometry_msgs.msg import Twist
 from sensor_msgs.msg import LaserScan 
+from nav_msgs.msg._odometry import Odometry
 
 import pymysql 
 
@@ -41,6 +42,8 @@ class DBSubscriber(Node):
             10)
         self.cmd_vel_subscription  # prevent unused variable warning
 
+
+        # robot 장애물 탐지 
         self.front_laser_subscription = self.create_subscription(
             LaserScan,
             'robot_namespace_0/scan',
@@ -48,6 +51,14 @@ class DBSubscriber(Node):
             10)
         self.front_laser_subscription
 
+        self.robot_position_subscription =self.create_subscription(
+            Odometry ,
+            'robot_namespace_0/odom' ,
+            self.robot_position_callback,
+            10)
+        self.robot_position_subscription
+    
+    # db 접속 
     def db_connection(self):
         """
         @brief  DB연결관련 함수
@@ -55,6 +66,7 @@ class DBSubscriber(Node):
         self.con = pymysql.connect(host=HOST, user=USER, password=PASSWORD, db=DB, charset='utf8')
         self.cur = self.con.cursor()
 
+    # cmd_vel -> db 연결
     def cmd_vel_callback(self, msg):
         """
         @brief  속도 토픽 콜백
@@ -63,6 +75,13 @@ class DBSubscriber(Node):
         self.get_logger().info('linear y: "%s"' % msg.linear.y)
         self.get_logger().info('angular x: "%s"' % msg.angular.z)
 
+    # 로봇의 현재 위치 확인 
+    def robot_position_callback(self, msg) :
+        self.get_logger().info('pose x: "%s"' % msg.pose.pose.position.x)
+        self.get_logger().info('pose y: "%s"' % msg.pose.pose.position.y)
+        self.get_logger().info('pose z: "%s"' % msg.pose.pose.position.z)
+
+    # 1m 이내 위험물 탐지 -> 경고 신호 
     def scan_callback(self, msg):
         if msg.ranges[180] < 1.0 :
             self.get_logger().warn('front :"%f"' % msg.ranges[180])
