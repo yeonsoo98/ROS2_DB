@@ -1,12 +1,12 @@
-ROS 2 – MariaDB 연동하기 
+# ROS 2 – MariaDB 연동하기 
                                            
 
-MariaDB의 Host , User , Password, DB 이름을 설정한다. 
+## MariaDB의 Host , User , Password, DB 이름을 설정한다. 
 
 
-MariaDB 에게 Python Msg를 보내는 형식 -> DBSubscriber Class 생성
+## MariaDB 에게 Python Msg를 보내는 형식 -> DBSubscriber Class 생성
 
-< DB와 연결하는 함수 생성 >
+### < DB와 연결하는 함수 생성 >
 
 -> python 인스턴스 생성 (클래스의 정의된 함수를 사용하기 위해)
 
@@ -25,7 +25,7 @@ MariaDB 에게 Python Msg를 보내는 형식 -> DBSubscriber Class 생성
      - 로봇의 현재 위치를 알기 위해서 odom값 db에 저장
 
 
-< 생성된 함수 정의하기 >
+### < 생성된 함수 정의하기 >
 
 -> MariaDB 와 연결하는 함수 정의하기 
 
